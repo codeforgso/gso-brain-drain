@@ -8,7 +8,7 @@ CitySDK.prototype.modules.census = new CensusModule();
 
 //Module object definition. Every module should have an "enabled" property and an "enable"  function.
 function CensusModule() {
-    this.enabled = false;
+    this.enabled = fals;
 };
 
 //Enable function. Stores the API key for this module and sets it as enabled
